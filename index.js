@@ -1,7 +1,17 @@
-const envName = process.env.ENV;
 
-const config = require('./ecosystem.config.js');
+module.exports = function({path}) {
+  let filename = path;
 
-const env = config.apps[0]['env_' + envName];
+  if (!path) {
+    filename = './ecosystem.config.js';
+  }
 
-Object.assign(process.env, env);
+  const envName = process.env.ENV;
+
+  const config = require(filename);
+
+  const env = config.apps[0]['env_' + envName];
+
+  Object.assign(process.env, env);
+
+}
