@@ -28,9 +28,6 @@ and
 ```
 // ecosystem.config.js
 
-
-
-
 module.exports = {
   /**
    * Application configuration section
@@ -69,4 +66,4 @@ module.exports = {
 
 ```
 
-OR check file `test/index.spec.js` and `package.json` test script.
+OR check file `test/index.spec.js` and `package.json` `test` script.
