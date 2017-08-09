@@ -14,6 +14,7 @@ describe('my-env', () => {
         path: path
       })
     });
+
     it('process.env should be set', () => {
       expect(process.env.MONGO_DB).to.be.eql('MONGO_DB_production');
     });
