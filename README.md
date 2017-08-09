@@ -3,9 +3,7 @@ Set process.env according to ecosystem.config.js file (PM2)
 
 ## Usage
 
-Check file `test/index.spec.js` and `package.json` test script.
 
-OR 
 
 Run
 
@@ -30,3 +28,5 @@ and
 
 
 ```
+
+OR check file `test/index.spec.js` and `package.json` test script.
