@@ -12,7 +12,7 @@ Run
 where
 
 ```
-// index.js
+// index.js (example)
 
 const MyEnv = require('my-env');
 const filename=require('path').resolve(__dirname,'ecosystem.config.js')
@@ -26,7 +26,7 @@ MyEnv({ path: filename});
 and
 
 ```
-// ecosystem.config.js
+// ecosystem.config.js (example)
 
 module.exports = {
   /**
